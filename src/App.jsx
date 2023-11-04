@@ -16,25 +16,11 @@ function App() {
   //   id:2
   // }
   const questions = [
-    {
-      question: "I am an odd number. Take away one letter, and I become even. What am I?",
-      answer: "7",
-      id: 1
-    },
-    {
-      question: "Susan and Lisa decided to play tennis against each other. They bet $1 on each game they played. Susan won three bets and Lisa won $5. How many games did they play?",
-      answer: "8",
-      id: 1
-    },
+   
     {
       question: "What does GPS stand for in the context of navigation and location tracking?",
       option: ["Global Positioning System"," Geographic Positioning Service","General Positioning System "," Grounded Positioning System"],
       answer: 0,
-      id:0
-    },{
-      question: "What is the capital of France?",
-      option: ["London","Berlin","Madrid","Paris"],
-      answer: 3,
       id:0
     },
     {
@@ -59,7 +45,7 @@ function App() {
     },
     {
       question: "A family has two parents and six sons. Each of the sons has one sister. How many people are in the family?",
-      answer: "9",
+      answer: 9,
       id: 1
     },
     {
@@ -466,7 +452,7 @@ function App() {
   const [points,setpoints]=useState(0);
   const [fillans,setfillans]=useState("");
   const [attemp,setattemp]=useState(0);
-  const [time,settime]=useState(10);
+  const [time,settime]=useState(0);
   useEffect(()=>{
 
     const interval=setInterval(() => {
@@ -538,20 +524,23 @@ function App() {
   console.log(questions[32]);
   const formsubmitfill=(e)=>{
     e.preventDefault();
-    console.log(fillans);
+    console.log(questions[j].answer.toString(),fillans);
     if(fillans.length===0){
       alert("please fill the required field");
     }else{
     setattemp(attemp+1);
-    if(fillans.toLowerCase()===questions[j].answer.toString()){
+    // if(fillans.toLowerCase().toString()===questions[j].answer.toString()){
+    console.log(fillans.toLowerCase().toString());
+    if(fillans===questions[j].answer){
       setcount(count+10);
+      setpoints(points+10);
       setfillans("");
     }else{
       setfillans("");
         }
     const randomNumber = Math.floor(Math.random() * 8) ;
   
-    setj(randomNumber);
+    setj(j+1);
   }
   }
 
@@ -567,7 +556,7 @@ function App() {
    setright(false);
    setpoints(0);
    setattemp(0);
-   settime(120);
+   settime(90);
    setj(0);
   }
 
@@ -605,7 +594,7 @@ function App() {
             })}
             <div className='flex gap-1'>
             <button className={` w-32 mt-5 px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl text-black`} onClick={formsubmit}>submit</button>
-         <button className={` mt-5 w-32  px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl text-black`} onClick={nextquest}>Next</button>
+         <button className={` mt-5 w-32  px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl text-black`} onClick={nextquest}>skip</button>
          </div>
           </div>
          
@@ -614,12 +603,12 @@ function App() {
                  <input className='w-9/12 px-3 h-10 outline-none border-none bg-inherit border-b-2 border-b-white' type="text" placeholder='answer' value={fillans} onChange={handleChange}/>
                  <div className='flex gap-2'>
                  <button className={` mt-5 w-32 px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl text-black`} onClick={formsubmitfill}>submit</button>
-                <button className={` mt-5 w-32 px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl text-black`} onClick={nextquest}>Next</button>
+                <button className={` mt-5 w-32 px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl text-black`} onClick={nextquest}>skip</button>
                 </div>
             </section>):(
               <section>
                 {/* <p>{questions[j].question}</p> */}
-                <button className={` mt-5 w-32 px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl text-black`} onClick={nextquest}>Next</button>
+                <button className={` mt-5 w-32 px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl text-black`} onClick={nextquest}>next</button>
               </section>
             )
           )
