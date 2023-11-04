@@ -18,144 +18,141 @@ function App() {
   const questions = [
   
     {
-      question: "I am an odd number. Take away one letter, and I become even. What am I?",
-      answer: "seven",
-      id: 1
+      question: "Welcome click next to begin",
+      id: 2,
+      time:130
     },
     {
-      question: "Susan and Lisa decided to play tennis against each other. They bet $1 on each game they played. Susan won three bets and Lisa won $5. How many games did they play?",
-      answer: "8",
-      id: 1
+      //1
+      question: "A man fell in a well. The well is 30 meters deep. In a day, he can climb 4 meters, but he slips down 3 meters. How many days would he take to come out of the well?",
+      id: 2,
+      time:60
     },
     {
-      question: 'If I say "everything I tell you is a lie", am I telling you the truth or a lie?',
-      answer: "paradox",
-      id: 1
+      //2
+      question: "Three friends decide to split the bill for a meal, and it totals $30. Each friend contributes $10. Later, the restaurant owner realizes there was a mistake and that the bill should have only been $25. The owner gives $5 to the waiter to return to the friends. However, the waiter decides to keep $2 for himself and gives $1 back to each friend. Now, each friend has paid $9 (a total of $27), and the waiter has $2, which adds up to $29. What happened to the missing dollar?",
+      id: 2,
+      time:60
     },
     {
-      question: "Who makes it, has no need of it. Who buys it, has no use for it. Who uses it can neither see nor feel it. What is it?",
-      answer: "coffin",
-      id: 1
+      //3
+      question: "Rohan asked his younger brother, Can you tell me the names of 20 words that don't have the vowel a you need to tell this in just 30 seconds?",
+      id: 2,
+      time:60
     },
     {
-      question: "What invention lets you look right through a wall?",
-      answer: "window",
-      id: 1
+      //4
+      question: "Four people need to cross a bridge at night, and they have only one flashlight. The bridge can only hold two people at a time. It takes the following times for each person to cross the bridge: 1 minute, 2 minutes, 5 minutes, and 10 minutes. When two people cross the bridge together, they must travel at the slower person's pace. What is the fastest time in which all four people can cross the bridge?",
+      id: 2,
+      time:60
     },
     {
-      question: "A girl has as many brothers and sisters. Each brother has only half as many brothers as sisters. How many brothers and sisters are there in the family? Give the number of brothers and sisters separated by a comma(,) no spaces.",
-      answer: "1,2",
-      id: 1
+      //5
+      question: "Three ants are sitting at the three corners of an equilateral triangle. Each ant randomly picks a direction and starts to move along the edge of the triangle. What is the probability that none of the ants collide? ",
+      id: 2,
+      time:60
     },
     {
-      question: "A family has two parents and six sons. Each of the sons has one sister. How many people are in the family?",
-      answer: "9",
-      id: 1
+      //6
+      question: "You have got someone working for you for five days and a gold bar to pay him. You must give them a piece of gold at the end of every day. What are the fewest number of cuts to the bar of gold that will allow you to pay him 1/5th each day? ",
+      id: 2,
+      time:60
     },
     {
-      question: "They come out at night without being called and are lost in the day without being stolen. What are they?",
-      answer: "stars",
-      id: 1
+      //7
+      question: "You have hired someone to work for you for seven days, and you have a gold bar to pay him. You must give him a piece of gold every day. What is the least number of cuts you can make to the gold bar such that you can pay them 1/7th of it each day?",
+      id: 2,
+      time:60
     },
     {
-      question: "Where does Friday come before Thursday?",
-      answer: "dictionary",
-      id: 1
+      //8
+      question: "You are faced with two doors. One door leads to certain death, and the other door leads to freedom. There are two guards, one in front of each door. One guard always tells the truth, and the other always lies. You don't know which guard is which, and you don't know which door leads to freedom. You can ask one guard one question to determine which door to choose. What question should you ask?",
+      id: 2,
+      time:60
     },
     {
-      question: "I am an English word with five letters. If you remove my last four, I am still pronounced the same. What am I?",
-      answer: "queue",
-      id: 1
+      //9
+      question: "You come across two individuals, one always tells the truth, and the other always lies. They stand next to each other, but you don't know who is who. You can ask one yes-or-no question to determine which one is the truth-teller. What question should you ask?",
+      id: 2,
+      time:60
     },
     {
-      question: "I go in dry and come out wet, The longer I’m in, the stronger it will get. What am I?",
-      answer: "tea",
-      id: 1
+      //10
+      question: "A man who lives on the 10th floor of a building takes the elevator down to the ground floor when he leaves for work. However, when he returns, he takes the elevator to the 7th floor and then walks up the stairs to reach his apartment on the 10th floor. Why does he do this?",
+      id: 2,
+      time:60
     },
     {
-      question: "I am a bird, I am a fruit and I am a person. What am I?",
-      answer: "penguin",
-      id: 1
+      //11
+      question: "A car has 4 tyres and 1 spare tyre. Each tyre can travel a maximum distance of 20000 miles before wearing off. What is the maximum distance the car can travel before you are forced to buy a new tyre? You are allowed to change tyres (using the spare tyre) an unlimited number of times. ",
+      id: 2,
+      time:100
     },
     {
-      question: "In a certain city, 5% of all the persons in town have unlisted phone numbers. If you select 100 names at random from that city's phone directory, how many people selected will have unlisted phone numbers?",
-      answer: "5",
-      id: 1
+      //12
+      question: "There are 100 closed lockers in a hallway. A student starts by opening all 100 lockers. Then the student closes every second locker (2nd, 4th, 6th, etc.). Next, the student goes to every third locker and toggles it (if it's closed, the student opens it; if it's open, the student closes it). The student continues this process for 100 lockers. After the 100th pass in the hallway, How many lockers will be open?",
+      id: 2,
+      time:100
     },
     {
-      question: "The more you take, the more you leave behind. What am I?",
-      answer: "footsteps",
-      id: 1
+      // 13
+      question: "If the time is 3:15 when you look at a clock, what’s the angle between the hour hand and the minute hand?",
+      id: 2,
+      time:60
     },
     {
-      question: "In 1990, a person is 15 years old. In 1995, that same person is 10 years old. So when was he born?",
-      answer: "born in 1990",
-      id: 1
+      // 14
+      question: "You begin in the top left corner of a 6×6 grid, and your objective is to move to the bottom right corner. There are just two directions you can move: right or down. Both diagonal and backwards movements are prohibited. How many different ways are there to get from the start to the finish? ",
+      id: 2,
+      time:100
     },
     {
-      question: "What comes next in the following pattern: 2, 3, 5, 8, 13, . .",
-      answer: "21",
-      id: 1
+      //15
+      question: "You are provided with a chessboard and are asked to find the number of squares in it. A chessboard is a board with 8 x 8 grids in it as represented below.",
+      id: 2,
+      time:100
     },
     {
-      question: "1, 3, 7, 15, 31, ...?",
-      answer: "63",
-      id: 1
+      //16
+      question: "There are 20 green balls and 16 black balls in a bag. Any two balls are removed at each step and are replaced with a new ball based on the following conditions \n 1.	If they are of the same color, they are replaced by a green ball. \n 2.	If hey are of different colors, they are replaced with a black ball. \n\n Find the last ball to remain after the entire process. Here replacement means that the new ball is inserted into the bag" ,
+     
+      id: 2,
+      time:100
     },
     {
-      question: "3624, 4363, 3644, 4563, 3664, ...",
-      answer: "4763",
-      id: 1
+      //17
+      question: "Suppose a newly-born pair of rabbits, one male, one female, are put in a field. Rabbits can mate at the age of one month so that at the end of its second month, a female can produce another pair of rabbits. Suppose that rabbits never die and that the female always has one new pair (one male, one female) every month from the second month on. How many pairs will there be in one year?",
+      id: 2,
+      time:150
     },
     {
-      question: "15, 29, 43, 57, 71, __",
-      answer: "85",
-      id: 1
+      //18
+      question: "There are 10 kids named ’A’, ‘B’, ‘C’, ‘D’, ‘E’, ‘F’, ‘G’, ‘H’, ‘I’, ‘J’ . They have some candies and they decided to divide these candies equally among themselves. So they divide the candies into 10 parts but the last kid ‘J’ got 1 candy less than other kids. So the remaining 9 kids betrayed ‘J’. They again decided to divide the candies into 9 parts. But this time again the last kid ‘I’ got 1 less candy than other kids. So again the remaining 8 kids betrayed ‘I’ and tried to divide all candies in between the remaining 8 kids. But again this time ‘H’ got one less candy than the other. Now, this process goes on until 1 kid left i.e. is ‘A’. After that ‘A’ takes all the candies and runs away. Now you have to guess the total number of candies.",
+      id: 2,
+      time:150
     },
     {
-      question: "0, 6, 24, 60, 120, 210, …",
-      answer: "336",
-      id: 1
+      //19
+      question: "You have given a square having a side of length X. Another square forms inside the first square by joining the midpoint of the side of the first square. Now 3rd square is formed inside the 2nd one by joining centers of the side of the 2nd square and so on. You have n squares inside each other. And you are given the side length of the largest square. You have to find the area of these nth squares.",
+      id: 2,
+      time:150
     },
     {
-      question: "9, 11, 20, 31, 51, ..",
-      answer: "72",
-      id: 1
+      //20
+      question: "There are 2187 balls, out of which 1 is heavy. Find the minimum number of attempts the balls have to be weighed for finding out the heavy ball.",
+      id: 2,
+      time:150
     },
     {
-      question: "If the pattern is Blue, Red, Green, Yellow, what is the next color?",
-      answer: "orange",
-      id: 1
+      // 21
+      question: "100 prisoners in jail are standing in a queue facing in one direction. Each prisoner is wearing a hat of color either black or red. A prisoner can see hats of all prisoners in front of him in the queue, but cannot see his hat and hats of prisoners standing behind him. The jailer is going to ask color of each prisoner’s hat starting from the last prisoner in queue. If a prisoner tells the correct color, then is saved, otherwise executed. How many prisoners can be saved at most if they are allowed to discuss a strategy before the jailer starts asking colors of their hats. ",
+      id: 2,
+      time:150
     },
     {
-      question: "What number comes next in this sequence: 1, 11, 21, 1211, ___?",
-      answer: "111221",
-      id: 1
-    },
-    {
-      question: "What is the next letter in the sequence: O, T, T, F, F, S, S, ___?",
-      answer: "E",
-      id: 1
-    },
-    {
-      question: "If the word 'DESSERTS' is rearranged into a new word, what is the pattern that forms the new word?",
-      answer: "stressed",
-      id: 1
-    },
-    {
-      question: "What is the next letter in the sequence: L, O, V, E, ___?",
-      answer: "Y",
-      id: 1
-    },
-    {
-      question: "What word should come next in this sequence: Tree, Forest, Wood, ___?",
-      answer: "branch",
-      id: 1
-    },
-    {
-      question: "ODD SUM PRE RAP ROW If the last alphabet in each of the word is changed to the next alphabet in English alphabetical order, how many words thus formed have two vowels?",
-      answer: "1",
-      id: 1
+      question: "thank you",
+      id: 2,
+      time:260
     }
   ];
 
@@ -172,7 +169,8 @@ function App() {
   const [points,setpoints]=useState(0);
   const [fillans,setfillans]=useState("");
   const [attemp,setattemp]=useState(0);
-  const [time,settime]=useState(10);
+  const [time,settime]=useState(0);
+  const [drop,setdrop]=useState(false);
   useEffect(()=>{
 
     const interval=setInterval(() => {
@@ -222,7 +220,10 @@ function App() {
     e.preventDefault();
     const randomNumber = Math.floor(Math.random() * 8) ;
     console.log(randomNumber);
+    // setj(j+1);
     setj(j+1);
+    settime(0);
+    // settime(questions[j].time);
      displayanswer(false);
      setChecked(initial);
      setsubmittedans(-1);
@@ -255,7 +256,6 @@ function App() {
     setcount(0);
     const randomNumber = Math.floor(Math.random() * 5) ;
    console.log(randomNumber);
-   setj(randomNumber);
    displayanswer(false);
    setChecked(initial);
    setsubmittedans(-1);
@@ -263,8 +263,13 @@ function App() {
    setright(false);
    setpoints(0);
    setattemp(0);
-   settime(120);
-   setj(0);
+   settime(questions[j].time);
+   
+  }
+
+  const newtime=()=>{
+    
+    settime(questions[j].time);
   }
 
   const endgame=()=>{
@@ -274,19 +279,13 @@ function App() {
   return (
     
     <div className='w-full py-32 min-h-screen flex justify-center items-center bg-gradient-to-r from-black to-blue-950 text-white '>
-      {
-        time>0?(
+    
       <section className='flex flex-col w-10/12 items-center gap-2 '>
         <p className=' text-8xl font-bold '>Let's Play</p>
-        <p className=' w-11/12 text-sm text-center text-fon'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          consequuntur sequi impedit dolor dolorem quidem amet blanditiis
-          tenetur fugiat ipsam suscipit praesentium facere consequatur omnis
-          aspernatur numquam eos, quas architecto.
-        </p>
+      
         <form action='' className='flex flex-col items-center w-full  mt-6 border-2 border-fon py-6 px-10 rounded-3xl' >
           <div className='w-full px-4'>
-          <p className='py-6 m-0  text-start'>
+          <p className='py-6 m-0  text-start text-4xl'>
             {questions[j].question}
           </p>
           </div>
@@ -331,42 +330,31 @@ function App() {
           <p className={`${!answer ? 'hidden' : 'flex'} mt-2`}>{questions[j].explanation}</p>
         </div> */}
         </form>
-      </section>):(
-        <section className=''>
-          <p>Hey,You played well  </p>
-          <div className='flex gap-3'>
-          <div >
-            <div>Questions Attempted</div>
-            <div>{attemp}</div>
-          </div>
-          <div>
-            <div>score</div>
-            <div>{points}</div>
-          </div>
-
-          </div>
-          {/* <button onClick={()=>{
-            
-          }} >New Game</button> */}
-        </section>
-      )
-}
-      <div className={`w-36 flex justify-center items-center h-36 fixed top-6 right-10 bg-gradient-to-r from-green-500 to-blue-500 mr-10 rounded-full`}>
+      </section>
+      <div className={`w-36 flex justify-center items-center h-36 fixed top-6 right-10 bg-gradient-to-r from-green-500 to-blue-500 mr-10 rounded-full cursor-pointer`} onClick={newtime}>
         <div className={` w-32 h-32 flex justify-center items-center rounded-full bg-blue-200`}>
          <p className='text-6xl font-bold text-black font-sans'>{time}</p>
          </div>
       </div>
-      <div className={`fixed top-6 left-10`}>
-        <div className={` `}>
-          <div className='flex gap-3'>
-         <button className='w-28 px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl bg-inherit border-2 border-white text-white' onClick={newgame}>start</button>
-         <button className='w-28 px-6 font-bold hover:scale-105 transition duration-1000  py-1 bg-white rounded-3xl  border-2 border-white text-black' onClick={endgame}>end</button>
-         </div>
-         </div>
+      <div className='w-32 cursor-pointer h-8 rounded-xl bg-white fixed top-6 left-10 text-black'onClick={()=>{setdrop(!drop)}}>
+       <p className='text-center mt-1 dropdown'> Ques</p> 
+      <div className={` h-32 w-32 flex-col bg-white overflow-auto ${drop?'flex':'hidden'}`}>
+        {
+          questions.map((item,idx)=>{
+            return (<div className='text-center cursor-pointer hover:scale-105' key={idx} onClick={()=>{
+              setj(idx);
+              setdrop(!drop);
+              settime(0);
+            }}>
+              {idx}
+            </div>)
+          })
+        }
       </div>
     </div>
-          
+          </div>
   );
-}
+      }
 
 export default App;
+
