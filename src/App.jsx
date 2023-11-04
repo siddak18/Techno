@@ -150,6 +150,110 @@ function App() {
       time:150
     },
     {
+      // 22
+      question :  "Given a grid of dimension 7x7 where each cell in the grid can have values 0, 1 or 2 which has the following meaning: 0 : Empty cell \n 1 : Cells have fresh oranges\n 2 : Cells have rotten oranges \n A rotten orange at index can rot other fresh orange at indexes up, down, left and right in unit time. Find out the minimum time to rot the oranges. ",
+      id: 2,
+      time:150
+    },
+    {
+      // 23
+      question :  "4)	Given a square grid of size 4, each cell of which contains integer cost which represents a cost to traverse through that cell, we need to find a path from top left cell to bottom right cell by which the total cost incurred is minimum. You can only move up, down, left and right.",
+      id: 2,
+      time:150
+    },
+    {
+      // 24
+      question :  "Given a grid of dimension 7x7 where each cell in the grid can have values 0, 1 or 2 which has the following meaning: 0 : Empty cell \n 1 : Cells have fresh oranges\n 2 : Cells have rotten oranges \n A rotten orange at index can rot other fresh orange at indexes up, down, left and right in unit time. Find out the minimum time to rot the oranges. ",
+      id: 2,
+      time:150
+    },
+    {
+      // 25
+      question: "A frog jumps either 1, or 2, steps to go to the top. In how many ways can it reach the 6th step.",
+      id: 2,
+      time:150
+    },
+    {
+      // 26
+      question: "Find the highest sum by selecting numbers from a sequence, without picking adjacent numbers.\n 4, 9, 1, 5, 3, 8, 12, 6, 15, 7, 10",
+      id: 2,
+      time:150
+    },
+    {
+      // 27
+      question: "Given 4 different coins of value {2, 5, 3, 6} representing different denominations of currency and an integer sum = 16, find the number of ways you can make sum by using different combinations from coins.  ",
+      id: 2,
+      time:150
+    },
+    {
+      // 28
+      question: "A top secret message containing letters from A-Z is being encoded to numbers using the following mapping: 'A' -> 1, 'B' -> 2 ..... 'Z' -> 26. You are an FBI agent. You have to determine the total number of ways that message can be decoded. Find it for input: str = “ 12214”" ,
+      id: 2,
+      time:150
+    },
+    {
+      // 29
+      question: "Given set of integers, find the length of the longest (strictly) increasing subsequence from the given array. A = {0,8,4,12,2,10,6,14,1,9,5,13,3,11,7,15}",
+      id: 2,
+      time:150
+    },
+    {
+      // 30
+      question: "Given a 4 X 4 matrix with your initial position at the top-left cell, find the number of possible unique paths to reach the bottom-right cell of the matrix from the initial position.",
+      id: 2,
+      time:150
+    },
+    {
+      // 31
+      question: "There are n sticks with some lengths. Your task is to modify the sticks so that each stick has the same length.You can either lengthen and shorten each stick. Both operations cost x where x is the difference between the new and original length.What is the minimum total cost? Input- 2 3 1 5 2",
+      id: 2,
+      time:150
+    },
+    {
+      // 32
+      question: "The n-queens is the problem of placing n queens on n × n chessboard such that no two queens can attack each other. Given an integer n, return any one solution to the n -queens puzzle. the solution contains a distinct boards configuration of the queen’s placement, where ‘Q’ and ‘.’ indicate queen and empty space respectively.find the solution for n = 8",
+      id: 2,
+      time:150
+    },
+    {
+      // 33
+      question: "The goal is to move all the disks to the right stack using the middle stack. On each move you can move the uppermost disk from a stack to another stack. In addition, it is not allowed to place a larger disk on a smaller disk. Your task is to find a solution that minimizes the number of moves for no. of disks = 4.",
+      id: 2,
+      time:150
+    },
+    {
+      // 34
+      question: "Your task is to count for k=1,2,....,n the number of ways two knights can be placed on a k*k chessboard so that they do not attack each other. given k = 4,",
+      id: 2,
+      time:150
+    },
+    {
+      // 35
+      question: "You have a 3-liter and a 5-liter water container, and neither one is marked aside from the total volume. A tap is also now flowing. In order to measure out exactly 4 liters of water, we must utilize the containers and the tap in the right way. How is this possible?",
+      id: 2,
+      time:150
+    },
+    {
+      // 36
+      question: "Two outlet pipes A and B are connected to a full tank. Pipe A alone can empty the tank in 10 minutes and pipe B alone can empty the tank in 30 minutes. If both are opened together, how much time will it take to empty the tank completely?",
+      id: 2,
+      time:150
+    },
+    {
+      // 37
+      question: "Working alone, two pipes A and B require 9 hours and 6.25 hours more respectively to fill a pool than if they were working together. Find the total time taken to fill the pool if both were working together.",
+      id: 2,
+      time:150
+    },
+    
+   
+    {
+      // 38
+      question: "You have 1,000 bottles of juice. One contains poison and tastes bitter. How do you find the poisoned bottle using the smallest number of sips?",
+      id: 2,
+      time:150
+    },
+    {
       question: "thank you",
       id: 2,
       time:260
