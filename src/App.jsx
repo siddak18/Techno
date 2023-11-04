@@ -556,7 +556,7 @@ function App() {
    setright(false);
    setpoints(0);
    setattemp(0);
-   settime(90);
+   settime(60);
    setj(0);
   }
 
